@@ -20,11 +20,14 @@
             .infopop{
                 margin: 150px 50px;
             }
+            .demo{
+                float: left;
+            }
         </style>
 
 	</head>
 
-	<body>
+	<body style="margin-top: 54px;">
 		<nav class="navbar navbar-static-top">
 			<div class="container-fluid">
 				<div class="pull-left">
@@ -70,11 +73,13 @@
             <div class="stats">
                 <div class="stat-overlay">
                     <div class="course-stats_array" data-toggle="popover" title="Array" data-content="A storage or a stack which holds the critical information about the software and dictates its functioning.">
-                        <div class="logo">
+                        <div class="logo" data-toggle="collapse" data-target="#demo">
+                        
                             <img src="../resource/javalanding/array.png" width="100px" height="100px">
                         </div>
                     </div>
                 </div>
+                    
                 <div class="course-stats_loop" data-toggle="popover" title="Loops" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover.">
                     <div class="logo">
                         <img src="../resource/javalanding/loop.png" width="100px" height="100px">
@@ -91,6 +96,12 @@
                     </div>
                 </div>
              </div>
+                <br><br>
+                 <div id="demo" class="collapse">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
             <!--<br><br><br><br><br><br><br><br><br><br><br><br>-->
         <footer>
             <h5> <b>We are in beta! We would love to hear your feedback.</b></h5>
