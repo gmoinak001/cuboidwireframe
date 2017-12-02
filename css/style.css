@@ -160,11 +160,12 @@ label:hover{
     max-height: 100vh;
 }
 .programs{
-    width: 180px;
+    width: 750px;
     height: 250px;
     margin-top: 54px;
     float: left;
-   
+    padding: 54px;
+ 
 }
 
 .edit{
