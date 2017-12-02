@@ -105,7 +105,7 @@ label:hover{
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
-    float: left;
+    
 }
 .course-stats_loop{
     margin-right: 110px;
@@ -115,7 +115,7 @@ label:hover{
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
-    float: left;
+    
 }
 .course-stats_searching{
     margin-right: 110px;
@@ -125,7 +125,7 @@ label:hover{
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
-    float: left;
+    
 }
 
 .course-stats_test{
@@ -136,7 +136,7 @@ label:hover{
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
-    float: left;
+    
 }
 
 .logo{
@@ -153,6 +153,15 @@ label:hover{
     -webkit-filter: none;
     filter: none;
     cursor: pointer;
+}
+.topic{
+    float: left;
+}
+.programs{
+    width: 180px;
+    height: 250px;
+    margin-top: 54px;
+    float: left;
 }
 
 .edit{
