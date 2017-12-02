@@ -156,12 +156,15 @@ label:hover{
 }
 .topic{
     float: left;
+    overflow-y: auto;
+    max-height: 100vh;
 }
 .programs{
     width: 180px;
     height: 250px;
     margin-top: 54px;
     float: left;
+   
 }
 
 .edit{
