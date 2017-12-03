@@ -100,9 +100,9 @@ label:hover{
 }
 .course-stats_array{
     margin-right: 110px;
-    margin-bottom: 110px;
-    width: 200px;
-    height: 200px;
+    
+    width: 158px;
+    height: 158px;
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
@@ -110,9 +110,9 @@ label:hover{
 }
 .course-stats_loop{
     margin-right: 110px;
-    margin-bottom: 110px;
-    width: 200px;
-    height: 200px;
+    
+    width: 158px;
+    height: 158px;
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
@@ -120,9 +120,9 @@ label:hover{
 }
 .course-stats_searching{
     margin-right: 110px;
-    margin-bottom: 110px;
-    width: 200px;
-    height: 200px;
+    
+    width: 158px;
+    height: 158px;
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
@@ -131,9 +131,9 @@ label:hover{
 
 .course-stats_test{
     margin-right: 110px;
-    margin-bottom: 110px;
-    width: 200px;
-    height: 200px;
+    
+    width: 158px;
+    height: 158px;
     border-radius: 100%;
     background-color: #3b4453;
     padding: 25px;
@@ -150,7 +150,23 @@ label:hover{
     padding: 25px;
 }
 
+.logo_jvacon{
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+    width: 108px;
+    height: 108px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 25px;
+}
+
 .logo:hover{
+    -webkit-filter: none;
+    filter: none;
+    cursor: pointer;
+}
+
+.logo_jvacon:hover{
     -webkit-filter: none;
     filter: none;
     cursor: pointer;
@@ -212,4 +228,42 @@ label:hover{
 
 .show {
     display: block;
+}
+.topic-connector1{
+    margin-right: 80px;
+    margin-left: 80px;
+    width: 1px;
+    height: 20px;
+    border: 1px solid #DCDCDC;
+}
+
+.topic-connector2{
+    margin-right: 89p;
+    margin-left: 89px;
+    width: 1px;
+    height: 10px;
+    border: 1px solid #DCDCDC;
+}
+
+.topic-splitter1{
+    width: 400px;
+    height: 20px;
+    margin-left: 89px;
+    margin-right: auto;
+    border-radius: 10px 10px 0 0;
+    border-top: 2px solid #DCDCDC;
+    border-left: 2px solid #DCDCDC;
+    border-right: 2px solid #DCDCDC;
+}
+
+.level-title{
+    background-color: #ffffff;
+    width: 68px;
+    text-align: center;
+    margin-left: 47px;
+    border-radius: 16px;
+    padding: 2px 4px;
+    position: relative;
+    -webkit-box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
+    box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
 }
