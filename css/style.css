@@ -45,8 +45,15 @@ label:hover{
 
 .stats{
     margin-left: 64px;
+    margin-bottom: 50px;
     padding: 5rem;
     min-height: 80px;
+    background-color: white;
+    padding: 20px;
+    border: 1px #E5E5E5;
+    -webkit-box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
+    box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
+    overflow-y: auto;
 }
 .course-stats_jva{
     margin-right: 110px;
@@ -98,9 +105,19 @@ label:hover{
     padding: 25px;
     float: left;
 }
-.course-stats_array{
-    margin-right: 110px;
+.course-stats_start{
+    margin-left: 59px;
+    margin-right: 59px;
+    width: 158px;
+    height: 158px;
+    border-radius: 100%;
+    background-color: #3b4453;
+    padding: 25px;
     
+}
+.course-stats_string{
+    margin-left: 59px;
+    margin-right: 59px;
     width: 158px;
     height: 158px;
     border-radius: 100%;
@@ -109,18 +126,8 @@ label:hover{
     
 }
 .course-stats_loop{
-    margin-right: 110px;
-    
-    width: 158px;
-    height: 158px;
-    border-radius: 100%;
-    background-color: #3b4453;
-    padding: 25px;
-    
-}
-.course-stats_searching{
-    margin-right: 110px;
-    
+    margin-left: 59px;
+    margin-right: 59px;
     width: 158px;
     height: 158px;
     border-radius: 100%;
@@ -130,8 +137,8 @@ label:hover{
 }
 
 .course-stats_test{
-    margin-right: 110px;
-    
+    margin-left: 59px;
+    margin-right: 59px;
     width: 158px;
     height: 158px;
     border-radius: 100%;
@@ -146,7 +153,7 @@ label:hover{
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background-color: white;
+    background-color: #E5E5E5;
     padding: 25px;
 }
 
@@ -156,7 +163,7 @@ label:hover{
     width: 108px;
     height: 108px;
     border-radius: 100%;
-    background-color: white;
+    background-color: #E5E5E5;
     padding: 25px;
 }
 
@@ -176,13 +183,14 @@ label:hover{
     overflow-y: auto;
     max-height: 100vh;
     margin-right: 54px;
+    margin-bottom: 20px;
 }
 .programs{
-    width: 750px;
-    height: 250px;
-    margin-top: 54px;
+    width: 850px;
+    height: 700px;
+   
     float: left;
-    padding: 54px;
+    padding: 24px;
  
 }
 
@@ -231,7 +239,7 @@ label:hover{
 }
 .topic-connector1{
     margin-right: 80px;
-    margin-left: 80px;
+    margin-left: 135px;
     width: 1px;
     height: 20px;
     border: 1px solid #DCDCDC;
@@ -260,7 +268,7 @@ label:hover{
     background-color: #ffffff;
     width: 68px;
     text-align: center;
-    margin-left: 47px;
+    margin-left: 100px;
     border-radius: 16px;
     padding: 2px 4px;
     position: relative;
@@ -272,10 +280,25 @@ label:hover{
     background-color: #ffcb1f;
     width: 100px;
     text-align: center;
-    margin-left: 33px;
+    margin-left: 82px;
+    
     border-radius: 16px;
     padding: 2px 4px;
     position: relative;
     -webkit-box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
     box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
+}
+.programspanel{
+    height: 500px;
+    width: 850px;
+    margin-left: 2px;
+    margin-bottom: 50px;
+    padding: 35px;
+    min-height: 80px;
+    background-color: white;
+    padding: 20px;
+    border: 1px #E5E5E5;
+    -webkit-box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
+    box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
+    overflow-y: auto;
 }
