@@ -44,6 +44,12 @@ label:hover{
 }
 
 .stats{
+   margin-left: 64px;
+    padding: 5rem;
+    min-height: 80px;
+}
+
+.statsjavacon{
     margin-left: 64px;
     margin-bottom: 50px;
     padding: 5rem;
@@ -55,6 +61,7 @@ label:hover{
     box-shadow: 0 1.5px 4px rgba(0,0,0,0.24), 0 1.5px 6px rgba(0,0,0,0.12);
     overflow-y: auto;
 }
+
 .course-stats_jva{
     margin-right: 110px;
     margin-bottom: 110px;
@@ -153,7 +160,7 @@ label:hover{
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background-color: #E5E5E5;
+    background-color: #ffffff;
     padding: 25px;
 }
 
